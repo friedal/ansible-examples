@@ -81,3 +81,4 @@ Group_vars is an Ansible-specific folder as part of the repository structure. Th
 What is Ansible handlers in what situations would you use them?
 In Ansible, handlers are typically used to start, reload, restart, and stop services. If your playbook involves changing configuration files, there is a high chance that you'll need to restart a service so that the changes take effect.
 
+Check About template !!!
