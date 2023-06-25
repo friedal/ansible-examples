@@ -72,3 +72,12 @@ command:
 
 You can optionally pass: `-e webapp_version=xxx` to the `rolling_update`
 playbook to specify a specific version of the example webapp to deploy.
+
+
+### Addition Learning Process 
+What is Group_vars in Ansible?
+Group_vars is an Ansible-specific folder as part of the repository structure. This folder contains YAML files created to have data models, and these data models apply to all the devices listed in the hosts. ini file. We can apply group variables to logical functions and hardware platform
+
+What is Ansible handlers in what situations would you use them?
+In Ansible, handlers are typically used to start, reload, restart, and stop services. If your playbook involves changing configuration files, there is a high chance that you'll need to restart a service so that the changes take effect.
+
