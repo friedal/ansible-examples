@@ -82,3 +82,4 @@ What is Ansible handlers in what situations would you use them?
 In Ansible, handlers are typically used to start, reload, restart, and stop services. If your playbook involves changing configuration files, there is a high chance that you'll need to restart a service so that the changes take effect.
 
 Check About template !!!
+https://www.linuxtechi.com/configure-use-ansible-jinja2-templates/?utm_content=cmp-true
